@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Form, ToggleButton } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import useInfoStore from "../store/InfoStore";
 import { useState } from "react";
 
@@ -17,28 +17,27 @@ function BasicData() {
     }
 
     return(
-        <div>
+        <div className="bg-dark bg-gradient d-flex flex-column w-75 h-75  align-self-center p-3 border rounded-4 shadow-lg">
             <Form>
                 <Form.Group>
                     <Form.Label>Nombre</Form.Label>
                     <Form.Control type="text" placeholder="Juanito Perez" onChange={(e)=> setUName(e.currentTarget.value)}/>
                 </Form.Group>
-                <Form.Group>
+                <Form.Group className="d-flex flex-row">
                     <Form.Label>Rol</Form.Label>
-                    <ButtonGroup >
                         {['Admin', 'User'].map((type)=>(
-                            <ToggleButton 
-                            id="rol" 
+                            <Form.Check 
+                            id="default-radio" 
                             type="radio" 
                             value={type} 
+                            className=""
                             name="rol" 
                             checked={uRol === type}
                             onChange={(e)=> setURol(e.currentTarget.value)}
                             >
                                 {type} 
-                            </ToggleButton>
+                            </Form.Check>
                         ))}
-                    </ButtonGroup>
                 </Form.Group>
                 <Form.Group>
                     <Form.Label>Especialidad</Form.Label>
