@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prueba-tec-inge-contable/static/css/main.ff02f4b5.css",
+    "main.js": "/prueba-tec-inge-contable/static/js/main.0dabaa5e.js",
+    "static/js/453.9aa91f25.chunk.js": "/prueba-tec-inge-contable/static/js/453.9aa91f25.chunk.js",
+    "index.html": "/prueba-tec-inge-contable/index.html",
+    "main.ff02f4b5.css.map": "/prueba-tec-inge-contable/static/css/main.ff02f4b5.css.map",
+    "main.0dabaa5e.js.map": "/prueba-tec-inge-contable/static/js/main.0dabaa5e.js.map",
+    "453.9aa91f25.chunk.js.map": "/prueba-tec-inge-contable/static/js/453.9aa91f25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff02f4b5.css",
+    "static/js/main.0dabaa5e.js"
+  ]
+}
